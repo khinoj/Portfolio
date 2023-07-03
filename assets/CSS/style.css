@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid red;
+}
+
+h1 {
+    color: black;
+    background-color:rgb(78, 224, 243);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    margin: 10px;
+}
+
+li a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
