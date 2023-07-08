@@ -23,7 +23,7 @@ header {
 header h1 {
     display: flex;
     justify-content: flex-start;
-    font-family: var(--font)
+    font-family: var(--font); 
 }
 
 header ul li {
@@ -39,6 +39,10 @@ a:link {
     font-size: 24px;
     font-family: var(--font)
   }
+
+a:visited {
+    color: whitesmoke;
+}
 
   main {
     justify-content: space-between;
@@ -116,10 +120,9 @@ main img {
     border: 4 solid pink;
     border-radius: 10px;
     padding-top: 16px;
-
 }
 
-.item-1 p{
+.item-1 p {
     font-size: 50px;
     width: auto;
 }
@@ -132,18 +135,61 @@ main img {
 
 .container-2 {
     display: flex;
+    flex-wrap: wrap;
     font-family: var(--font);
 }
 
-.item-3 p{
+.item-3 p {
     font-size: 50px;
     width: auto;
 }
 
-.item-4 {
-    font-size: 20px;
+.item-4 img {
+    height:400px;
     width: auto;
+    border-radius: 10px;
+    border: 10px solid rgb(119, 60, 60);
 }
+
+/* .break {
+  flex-basis: 100%;
+  height: 0;
+} */
+
+#work-mini-photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    list-style-type: none;
+    padding-top: 20px;
+    gap: 10px;
+    
+}
+
+.item-5 img {
+    height:200px;
+    width: auto;
+    border-radius: 10px;
+}
+
+.item-6 img {
+    height:200px;
+    width: auto;
+    border-radius: 10px;
+}
+
+.item-7 img {
+    height:200px;
+    width: auto;
+    border-radius: 10px;
+}
+
+.item-8 img {
+    height:200px;
+    width: auto;
+    border-radius: 10px;
+}
+
 
 
 
