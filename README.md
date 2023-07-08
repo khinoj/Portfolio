@@ -24,5 +24,9 @@
 
 <!-- ![](./images/image_1.PNG) -->
 
+## Reference
+
+* Circuit hero image is from www.heropatterns.com
+
 
 ## GitHub

@@ -10,6 +10,7 @@
 
 body {
     background: linear-gradient(to left, rgb(31, 30, 30), rgb(56, 166, 202));
+    max-width: auto;
 }
 
 header {
@@ -116,8 +117,8 @@ main img {
     flex:1;
     width:auto;
     text-align: center;
-    background-color: palevioletred;
-    border: 4 solid pink;
+    /* background-color: palevioletred;
+    border: 4 solid pink; */
     border-radius: 10px;
     padding-top: 16px;
 }
@@ -141,6 +142,7 @@ main img {
 
 .item-3 p {
     font-size: 50px;
+    margin-top: 250px;
     width: auto;
 }
 
@@ -190,11 +192,29 @@ main img {
     border-radius: 10px;
 }
 
+.container-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    list-style-type: none;
+    padding-bottom: 10px;
+    font-family: var(--font);
+}
 
+.item-9 p {
+    font-size: 50px;
+    width: auto;
+}
 
+.item-10 ul li{
+    display: inline;
+    text-decoration: none;
+}
 
-
-
+img:hover {
+    filter: none;
+      transform: scale(1.05);
+    }
 
 @media screen and (max-width: 992px) {
     body {
@@ -207,4 +227,3 @@ main img {
       font-size: 1vm;
     }
   }
-  
