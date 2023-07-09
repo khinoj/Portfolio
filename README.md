@@ -22,7 +22,9 @@
 
 ## Screenshot
 
-<!-- ![](./images/image_1.PNG) -->
+![](./assets/images/hw_1.PNG)
+![](./assets/images/hw_2.PNG)
+![](./assets/images/hw_3.PNG)
 
 ## Reference
 
@@ -30,3 +32,5 @@
 
 
 ## GitHub
+
+

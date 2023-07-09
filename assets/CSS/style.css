@@ -10,7 +10,6 @@
 
 body {
     background: linear-gradient(to left, rgb(31, 30, 30), rgb(56, 166, 202));
-    max-width: auto;
 }
 
 header {
@@ -76,40 +75,10 @@ main img {
     height: 175px;
 }
 
-/* #about-me {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:center;
-    padding-top: 14px;
-}
-
-.flex-about h2 {
-    font-size: 46px;
-    padding: 12px;
-    font-family: var(--font);
-    border: 10px solid red;
-}
-
-.flex-about p {
-    font-size: 24px;
-    color: whitesmoke;
-    font-family: var(--font);
-    border: 10px solid red;
-}
-
-#work {
-    display:flex;
-    padding-top: 14px;
-}
-
-.flex-work h2 {
-    font-size: 46px;
-    font-family: var(--font);
-    border: 10px solid red;
-} */
-
+/* Flexbox for about me section */
 .container-1 {
     display: flex;
+    flex-wrap: wrap;
     font-family: var(--font);
 }
 
@@ -118,34 +87,40 @@ main img {
     width:auto;
     text-align: center;
     /* background-color: palevioletred;
-    border: 4 solid pink; */
-    border-radius: 10px;
+    border: 4 solid pink;
+    border-radius: 10px; */
     padding-top: 16px;
 }
 
+/* About Me Text */
 .item-1 p {
     font-size: 50px;
     width: auto;
 }
 
+/* About Me Paragraph */
 .item-2 {
+    display: flex;
     font-size: 20px;
     width: auto;
     color: whitesmoke;
 }
 
+/* Flexbox for Work Section */
 .container-2 {
     display: flex;
     flex-wrap: wrap;
     font-family: var(--font);
 }
 
+/* Work Text */
 .item-3 p {
     font-size: 50px;
     margin-top: 250px;
     width: auto;
 }
 
+/* Big image */
 .item-4 img {
     height:400px;
     width: auto;
@@ -158,6 +133,7 @@ main img {
   height: 0;
 } */
 
+/* flexbox for smaller photos */
 #work-mini-photos {
     display: flex;
     flex-wrap: wrap;
@@ -168,6 +144,7 @@ main img {
     
 }
 
+/* image adjustments start*/
 .item-5 img {
     height:200px;
     width: auto;
@@ -191,7 +168,9 @@ main img {
     width: auto;
     border-radius: 10px;
 }
+/* image adjustments ends*/
 
+/* flexbox for contact me section */
 .container-3 {
     display: flex;
     flex-wrap: wrap;
@@ -201,6 +180,7 @@ main img {
     font-family: var(--font);
 }
 
+/* contact me text */
 .item-9 p {
     font-size: 50px;
     width: auto;
@@ -211,11 +191,13 @@ main img {
     text-decoration: none;
 }
 
+/* image enlargement on hover  */
 img:hover {
     filter: none;
       transform: scale(1.05);
     }
 
+/* font size change start*/
 @media screen and (max-width: 992px) {
     body {
       font-size: 1vm;
@@ -227,3 +209,64 @@ img:hover {
       font-size: 1vm;
     }
   }
+/* font size change end*/
+
+
+  @media screen and (max-width: 992px) {
+    .item-2 {
+        flex-basis: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .item-2 {
+        flex-basis: 100%;
+    }
+  }
+
+
+/* adjust Work text margin  */
+  @media screen and (max-width: 992px) {
+    .item-3 p {
+        flex-basis: 100%;
+        margin: auto;
+    }
+  }
+  
+  /* adjust Work text margin  */
+  @media screen and (max-width: 768px) {
+    .item-3 p {
+        flex-basis: 100%;
+        margin: auto;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    .item-4 {
+        height: auto;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .item-4 {
+        height: auto;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    .item-10 {
+        flex-basis: 100%;
+        height: 0;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .item-10 {
+        flex-basis: 100%;
+        height: 0;
+    }
+  }
+
+
+
+
